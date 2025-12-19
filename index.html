@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Aero Rentacar Filo Car – Araç Kiralama</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="images/logo.png" alt="Aero Rentacar Filo Car Logo" class="logo">
+      <div class="brand-text">
+        <span class="brand-title">Aero Rentacar Filo Car</span>
+        <span class="brand-sub">81 İlde Araç Kiralama</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#cars">Araçlar</a>
+      <a href="#why">Neden Biz?</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#contact">İletişim</a>
+    <a href="kvkk.html">KVKK</a></nav>
+    <div class="header-actions">
+      <a href="tel:+905370594257" class="btn small">Ara</a>
+      <a href="https://wa.me/905370594257" target="_blank" class="btn ghost small">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+
+<section class="hero hero-new">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay-strong"></div>
+  <div class="container hero-flex">
+    <div class="hero-left">
+      <span class="hero-badge">Aero Rentacar Filo Car</span>
+      <h1 class="hero-title">Lüks – Konfor – Güven<br>Aradığın Araç Burada.</h1>
+      <p class="hero-text">İster şehir içi ister uzun yol, geniş filomuz ve uygun fiyatlarımızla her zaman yanınızdayız.</p>
+      <div class="hero-actions">
+        <a href="#cars" class="btn">Araçları Gör</a>
+        <a href="https://wa.me/905370594257" target="_blank" class="btn ghost">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quick-strip">
+  <div class="container quick-row">
+    <div class="quick-field">
+      <label for="quickCar">Araç Seç</label>
+      <select id="quickCar"></select>
+    </div>
+    <div class="quick-field">
+      <label for="quickCity">İl Seç</label>
+      <select id="quickCity"></select>
+    </div>
+    <div class="quick-field">
+      <label for="quickDays">Gün Sayısı</label>
+      <input type="number" id="quickDays" min="1" placeholder="Örn: 5">
+    </div>
+    <div class="quick-total" id="quickResult">Toplam: -</div>
+    <button class="btn quick-wa" id="quickWhatsappBtn">WhatsApp Rezervasyon</button>
+  </div>
+</section>
+
+
+<main>
+  <div class="ticker">
+  <div class="ticker-inner">
+    Online rezervasyona özel tüm araçlarda haftalık %10, aylık %35’e varan indirim fırsatı; üstelik ücretsiz vale hizmeti! Hemen ara, aracın kapına gelsin.
+  </div>
+</div>
+<section class="section" id="cars">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Araç Filomuz</h2>
+          <p>Tüm araçlarda 3000₺ depozito ve aylık fiyat bilgisi.</p>
+        </div>
+        <div class="tools">
+          <input type="search" id="carSearch" placeholder="Araç ara (örn: BMW, SUV, Fiat)" />
+          <span id="carCount" class="count-badge">0 araç</span>
+        </div>
+      </div>
+      <div id="carGrid" class="car-grid"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="why">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Neden Aero Rentacar Filo Car?</h2>
+          <p>Kurumsal altyapı, genç araçlar ve Türkiye geneli hizmet.</p>
+        </div>
+      </div>
+      <div class="features-grid">
+        <article class="feature">
+          <img src="images/gallery-4.jpg" alt="Anahtar teslim">
+          <h3>Hızlı Teslimat</h3>
+          <p>Uçağınızdan indiğiniz gibi anahtarınızı teslim alabileceğiniz esnek çözümler.</p>
+        </article>
+        <article class="feature">
+          <img src="images/gallery-6.jpg" alt="Güvenilir hizmet">
+          <h3>Kurumsal Güvence</h3>
+          <p>Bakımlı ve sigortalı araçlar, şeffaf sözleşmeler ve sürpriz masraf yok.</p>
+        </article>
+        <article class="feature">
+          <img src="images/gallery-3.jpg" alt="Aile aracı">
+          <h3>Aile Dostu Filomuz</h3>
+          <p>Geniş bagajlı, çocuk koltuğu opsiyonlu ve konforlu aile araçları.</p>
+        </article>
+        <article class="feature">
+          <img src="images/contact.jpg" alt="İletişim">
+          <h3>7/24 Destek</h3>
+          <p>+90 537 059 42 57 numarası üzerinden dilediğiniz an bize ulaşabilirsiniz.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Galeri</h2>
+          <p>Showroom, teslimat ve yolculuk anlarımızdan kareler.</p>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <img src="images/gallery-2.jpg" alt="Showroom">
+        <img src="images/gallery-4.jpg" alt="Teslimat">
+        <img src="images/gallery-6.jpg" alt="El sıkışma">
+        <img src="images/gallery-3.jpg" alt="Aile aracı">
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip">
+    <div class="cta-overlay"></div>
+    <div class="container cta-inner">
+      <div>
+        <h2>Hemen rezervasyon yapmak ister misiniz?</h2>
+        <p>Gün sayısını ve aracı belirleyin, kalan her şeyle biz ilgilenelim.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:+905370594257" class="btn">Hemen Ara</a>
+        <a href="https://wa.me/905370594257" target="_blank" class="btn ghost">WhatsApp Mesaj Gönder</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-image">
+        <img src="images/contact.jpg" alt="İletişim">
+      </div>
+      <div class="contact-text">
+        <h2>İletişim & Destek</h2>
+        <p>Aero Rentacar Filo Car olarak, ihtiyacınıza uygun aracı bulmanız için yanınızdayız.</p>
+        <ul class="contact-list">
+          <li><strong>Telefon:</strong> <a href="tel:+905370594257">+90 537 059 42 57</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/905370594257" target="_blank">Mesaj Gönder</a></li>
+          <li><strong>E-posta:</strong> info@aero rentacarfilocar.com (örnek)</li>
+        </ul>
+        <p>81 ilde teslimat ve iade seçenekleri için bizi arayın, en uygun çözümleri birlikte planlayalım.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2025 Aero Rentacar Filo Car. Tüm hakları saklıdır.</span>
+    <span class="footer-phone">Rezervasyon: <a href="tel:+905370594257">+90 537 059 42 57</a></span>
+    <button class="kvkk-btn" 
+  </div>
+
+<section id="kvkk" class="section" style="padding:40px 0;background:#fff;">
+  <div class="container">
+    <h2>KVKK Aydınlatma Metni</h2>
+    <p>Aero Rentacar Filo Car olarak, kişisel verilerinizi 6698 sayılı KVKK kapsamında işlemekteyiz.</p>
+    <p>Kişisel verileriniz yalnızca araç kiralama, rezervasyon ve iletişim süreçlerinin yürütülmesi amacıyla işlenmektedir.</p>
+    <p>Verileriniz üçüncü kişilerle paylaşılmaz; yalnızca yasal zorunluluk halinde resmi kurumlara aktarılabilir.</p>
+    <p>Haklarınız: Veri silme, düzeltme, erişim talebi, işleme itirazı.</p>
+    <p>İletişim: info@aero rentacarfilocar.com • +90 537 059 42 57</p>
+  </div>
+</section>
+
+</footer>
+
+
+</div>
+</body>
+</html>
