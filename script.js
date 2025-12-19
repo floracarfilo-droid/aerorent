@@ -171,7 +171,7 @@ function renderCars(list){
         </div>
         <div class="car-bottom">
           <span class="badge-deposit-inline">Depozito 3000₺</span>
-          <a class="btn" href="tel:+905370594257">Hemen Ara</a>
+          <a class="btn" href="https://wa.me/905370594257">WhatsApp</a>
         </div>
       </div>
     `;
